@@ -1,6 +1,14 @@
 # Installing Conda Environment from Zero to Hero
+原项目推荐a machine with 3090/A40/A800/A100 GPU, cuda 11.7, driver 515.65.01.
+复现时使用腾讯云GPU计算型PNV4实例 A10，cuda12.4, Ubuntu 20.04 LTS (GNU/Linux 5.4.0-204-generic x86_64)
+ssh连接github：
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    cat ~/.ssh/id_ed25519.pub
+    New SSH key 输入cat显示的公钥内容
+    ssh -T git@github.com #验证
+    git clone git@github.com:YanjieZe/3D-Diffusion-Policy.git
 
-The following guidance works well for a machine with 3090/A40/A800/A100 GPU, cuda 11.7, driver 515.65.01.
 
 First, git clone this repo and `cd` into it.
 
